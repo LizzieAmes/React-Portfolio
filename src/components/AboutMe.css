@@ -1,8 +1,8 @@
 .about-me {
   text-align: center; 
   padding: 20px; 
-  background-color: #f0f2f500; 
-  color: rgb(115, 87, 81); 
+  background-color: rgba(242, 233, 228, 0); 
+  color: rgb(33, 104, 105); 
   font-family: 'Space Mono', monospace;
   margin-top: 100px;
 }
@@ -35,14 +35,14 @@
 
 .about-me button {
   font-size: 1.5rem; 
-  background-color: rgb(115, 87, 81);
+  background-color: rgb(33, 104, 105);
   border-radius: 12px;
-  border-color: rgb(115, 87, 81);
-  border: 2px solid rgb(115, 87, 81);
+  border-color: rgb(33, 104, 105);
+  border: 2px solid rgb(33, 104, 105);
 }
 
 .about-me button:hover {
-  background-color: white;
-  border-color: white;
-  color: rgb(115, 87, 81);
+  background-color: rgb(254, 234, 250);;
+  border-color: rgb(254, 234, 250);;
+  color: rgb(33, 104, 105);
 }

@@ -1,0 +1,15 @@
+.portfolio {
+    text-align: center;
+    padding: 20px;
+  }
+  
+.portfolio {
+    padding: 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
