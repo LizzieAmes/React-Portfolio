@@ -1,0 +1,48 @@
+.about-me {
+  text-align: center; 
+  padding: 20px; 
+  background-color: #f0f2f500; 
+  color: rgb(115, 87, 81); 
+  font-family: 'Space Mono', monospace;
+  margin-top: 100px;
+}
+
+.about-me h1 {
+  
+  margin: 0.5rem 0; 
+  font-size: 2rem;
+  text-align: left;
+}
+
+.about-me h2 {
+  font-size: 4rem;
+  text-align: left;
+  font-weight: 700;
+}
+
+.about-me h3 {
+  font-size: 3rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+.about-me p {
+  margin-top: 20px;
+  font-size: 1.5rem; 
+  max-width: 600px; 
+  text-align: left;
+}
+
+.about-me button {
+  font-size: 1.5rem; 
+  background-color: rgb(115, 87, 81);
+  border-radius: 12px;
+  border-color: rgb(115, 87, 81);
+  border: 2px solid rgb(115, 87, 81);
+}
+
+.about-me button:hover {
+  background-color: white;
+  border-color: white;
+  color: rgb(115, 87, 81);
+}

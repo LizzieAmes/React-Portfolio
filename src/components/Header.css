@@ -4,16 +4,42 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #333;
-  color: #fff;
+  background-color: #33333300;
+  color: #333333;
+  width: 100%;
 }
 
 .navigation a {
-  color: #fff;
+  color: #333333;
   text-decoration: none;
   margin-left: 20px;
 }
 
 .navigation a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 1rem 1.5rem; 
+  }
+
+  .navigation a {
+    margin-left: 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 1rem; 
+  }
+  .navigation a {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0; 
+    font-size: 0.8rem; 
+  }
 }
