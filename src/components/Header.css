@@ -9,10 +9,16 @@
   width: 100%;
 }
 
+.brand-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .navigation a {
   color: #333333;
   text-decoration: none;
   margin-left: 20px;
+  
 }
 
 .navigation a:hover {
