@@ -1,23 +1,29 @@
 .about-me {
-  text-align: center; 
-  padding: 20px; 
-  background-color: rgba(242, 233, 228, 0); 
-  color: rgb(33, 104, 105); 
+  text-align: center;
+  padding: 20px;
+  padding-left: 200px;
+  background-color: rgba(242, 233, 228, 0);
+  color: rgb(33, 104, 105);
   font-family: 'Space Mono', monospace;
   margin-top: 100px;
 }
 
+.text-container {
+  text-align: left; 
+  max-width: 800px; 
+}
+
 .about-me h1 {
-  
-  margin: 0.5rem 0; 
+  margin: 0.5rem 0;
   font-size: 2rem;
   text-align: left;
 }
 
 .about-me h2 {
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: left;
   font-weight: 700;
+  
 }
 
 .about-me h3 {
@@ -28,21 +34,25 @@
 
 .about-me p {
   margin-top: 20px;
-  font-size: 1.5rem; 
-  max-width: 600px; 
+  font-size: 1.5rem;
+  max-width: 800px;
   text-align: left;
+  padding-bottom: 50px;
 }
 
-.about-me button {
-  font-size: 1.5rem; 
+.contact-me-button {
+  font-size: 1.5rem;
   background-color: rgb(33, 104, 105);
+  color: #fff; /* Ensure text color is white */
   border-radius: 12px;
-  border-color: rgb(33, 104, 105);
   border: 2px solid rgb(33, 104, 105);
+  padding: 10px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+  display: inline-block;
 }
 
-.about-me button:hover {
-  background-color: rgb(254, 234, 250);;
-  border-color: rgb(254, 234, 250);;
-  color: rgb(33, 104, 105);
+.contact-me-button:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
