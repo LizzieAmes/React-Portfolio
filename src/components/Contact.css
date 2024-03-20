@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    padding-top: 50px;
   }
   
   .contact-section form {

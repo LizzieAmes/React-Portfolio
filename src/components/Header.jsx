@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import profilePicture from '../assets/images/profilepicture.png';
 
 const Header = () => (
   <header className="header">
-    <div className="brand-name">Lizzie Ames</div>
+    <div className="brand-name">
+      <img src={profilePicture} alt="Profile Picture" className="profile-picture"/>
+    </div>
     <nav className="navigation">
       <Link to="/">About Me</Link>
       <Link to="/portfolio">Portfolio</Link>

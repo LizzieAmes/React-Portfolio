@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
 import { Link } from 'react-router-dom';
-import planetImage from '../assets/images/planet.png';
+import planetImage from '../assets/images/stars.png';
 
 const AboutMe = () => {
   return (
@@ -11,7 +11,6 @@ const AboutMe = () => {
         backgroundImage: `url(${planetImage})`,
         backgroundSize: '650px 650px',
         backgroundPosition: '80% center',
-        backgroundRepeat: 'no-repeat',
       }}
     >
       <div className="text-container">
