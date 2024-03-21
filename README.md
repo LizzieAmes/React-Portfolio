@@ -5,6 +5,7 @@ This React portfolio showcases my development projects and skills. It's designed
 ## Live
 
 Check out the live site here:
+https://lizzie-ames-portfolio.netlify.app/portfolio
 
 ## Features
 
