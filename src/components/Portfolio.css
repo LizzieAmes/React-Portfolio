@@ -1,13 +1,16 @@
 .portfolio {
     text-align: center;
     padding: 20px;
+    font-family: 'Roboto Flex', sans-serif;
   }
   
-.portfolio {
-    padding: 20px;
+.portfolio h1 {
+    font-size: 50px;
+    font-style: bold; 
   }
   
   .projects-grid {
+    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

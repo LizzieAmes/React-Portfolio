@@ -24,8 +24,14 @@ const Resume = () => {
 
   return (
     <div className="resume-section">
-        <h1>Download My Resume:</h1>
-       <a href={resumeLink} target="_blank" rel="noopener noreferrer" download="Lizzie_Ames_Resume">
+      <h1>Download My Resume ⬇ </h1>
+      <a
+        href={resumeLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        download="Lizzie_Ames_Resume"
+        className="resume-download"
+      >
         Elizabeth Ames Resume
       </a>
       <h1>Front-End Proficiencies</h1>

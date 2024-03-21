@@ -1,44 +1,53 @@
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    padding-top: 50px;
-  }
-  
-  .contact-section form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; 
-    max-width: 500px;
-    width: 100%; 
-  }
-  
-  .contact-section input,
-  .contact-section textarea {
-    padding: 15px; 
-    margin-top: 5px;
-    background-color: white;
-    color: black; 
-    border: 1px solid #ccc; 
-    border-radius: 8px; 
-    width: calc(100% - 30px); 
-  }
-  
-  .contact-section button {
-    padding: 10px;
-    margin-top: 20px;
-    background-color: rgb(33, 104, 105);
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 50px;
-    width: 100%; 
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 25px;
+}
 
-  .contact-section button:hover {
-    background-color: white;
-    border-color: rgb(254, 234, 250);
-    color: rgb(33, 104, 105);
-  }
-  
+.contact-section h1 {
+  font-size: 50px;
+  padding-bottom: 30px;
+  font-style: bold;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  width: 100%;
+  font-weight: 500;
+}
+
+.contact-section input,
+.contact-section textarea {
+  padding: 15px;
+  margin-top: 5px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: calc(100% - 30px);
+  font-size: 20px;
+}
+
+.contact-section button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgb(255, 133, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contact-section button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}

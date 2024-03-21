@@ -1,48 +1,64 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import './Portfolio.css'; 
+import './Portfolio.css';
+import theGreenHill from '../assets/images/thegreenhill.png';
+import svgImage from '../assets/images/svg.png';
+import socialMedia from '../assets/images/socialmedia.png';
+import readMe from '../assets/images/README.png';
+import noteTaker from '../assets/images/note-taker.png';
+import eCommerce from '../assets/images/ecommerce.png';
+import weatherApp from '../assets/images/weatherApp.png';
 
 const projects = [
-    {
-        imageUrl: "https://drive.google.com/uc?export=view&id=1Cr5mKjcfE0V1C4t5-xdBoU-jbZOB9bUQ",
-        githubLink: "https://github.com/LizzieAmes/SVG-Logo-Maker"
-    },
-    {
-        imageUrl: "https://drive.google.com/file/d/1Cr5mKjcfE0V1C4t5-xdBoU-jbZOB9bUQ/view?usp=sharing",
-        githubLink: "https://github.com/LizzieAmes/NoSQL-Social-Network-API-Maker"
-    },
-    {
-        imageUrl: "https://github.com/LizzieAmes/Lizzie-Ames-Professional-Portfolio/blob/main/assets/images/github.png",
-        githubLink: "https://github.com/LizzieAmes/Professional-README-Generator"
-    },
-    {
-        imageUrl: "url-to-project-image",
-        githubLink: "https://github.com/LizzieAmes/Express.js-Note-Taker"
-    },
-    {
-        imageUrl: "url-to-project-image",
-        githubLink: "https://github.com/LizzieAmes/Object-Relational-Mapping-ORM-Challenge-E-commerce-Back-End"
-    },
-    {
-        imageUrl: "url-to-project-image",
-        githubLink: "https://github.com/LizzieAmes/Weather-App"
-    },
-    {
-        imageUrl: "url-to-project-image",
-        githubLink: "https://github.com/LizzieAmes/Coding-Quiz"
-    },
+  {
+    imageUrl: theGreenHill,
+    githubLink:
+      'https://github.com/ryandarton/the-green-hill-ecommerce-admin-portal',
+    title: 'The Green Hill',
+  },
+  {
+    imageUrl: svgImage,
+    githubLink: 'https://github.com/LizzieAmes/SVG-Logo-Maker',
+    title: 'SVG Logo Maker',
+  },
+  {
+    imageUrl: socialMedia,
+    githubLink: 'https://github.com/LizzieAmes/NoSQL-Social-Network-API-Maker',
+    title: 'NoSQL Social Network API',
+  },
+  {
+    imageUrl: readMe,
+    githubLink: 'https://github.com/LizzieAmes/Professional-README-Generator',
+    title: 'README Generator',
+  },
+  {
+    imageUrl: noteTaker,
+    githubLink: 'https://github.com/LizzieAmes/Express.js-Note-Taker',
+    title: 'Express.js Note Taker App',
+  },
+  {
+    imageUrl: eCommerce,
+    githubLink:
+      'https://github.com/LizzieAmes/Object-Relational-Mapping-ORM-Challenge-E-commerce-Back-End',
+    title: 'ORM E-Commerce Back-End',
+  },
+  {
+    imageUrl: weatherApp,
+    githubLink: 'https://github.com/LizzieAmes/Weather-App',
+    title: 'Weather App API',
+  },
 ];
 
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <h1>My Portfolio</h1>
+      <h1>My Work</h1>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
             title={project.title}
-            description={project.description}
+            imageUrl={project.imageUrl}
             githubLink={project.githubLink}
           />
         ))}

@@ -1,4 +1,3 @@
-/* src/components/Header.css */
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,13 +6,18 @@
   background-color: #33333300;
   color: #333333;
   width: 100%;
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 300;
 }
+
 
 .profile-picture {
   width: 100px;
   height: 100px;
   margin: 0 20px;
   border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .navigation a {
@@ -22,35 +26,36 @@
   margin-left: 20px;
   font-size: 2rem;
   padding: 20px;
+  font-weight: bold;
 }
 
 .navigation a:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
   transition: transform 0.3s ease;
   color: black;
 }
 
-@media (max-width: 1024px) {
-  .header {
-    padding: 1rem 1.5rem; 
-  }
 
-  .navigation a {
-    margin-left: 0.75rem;
-    font-size: 0.9rem;
-  }
-}
+
 
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
-    text-align: center;
-    padding: 1rem 1rem; 
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center-align the content */
   }
+
+  .profile-picture {
+    margin-bottom: 20px; /* Add some space below the profile picture */
+  }
+
+  .navigation {
+    justify-content: center; /* Center the navigation links */
+    flex-wrap: wrap; /* Wrap links if necessary */
+  }
+
   .navigation a {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 0; 
-    font-size: 0.8rem; 
+    font-size: 0.7rem; /* Adjust font size for smaller screens */
+    padding: 5px;
+    margin: 0 10px; /* Adjust margin for closely spaced links */
   }
 }

@@ -4,6 +4,7 @@
     overflow: hidden;
     margin: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
     transition: transform 0.2s; 
   }
   
@@ -13,8 +14,26 @@
   
   .project-card img {
     width: 100%;
-    height: auto; 
+    height: 200px; 
+    object-fit: cover;
     display: block; 
   }
+
+  .project-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  opacity: 0; /* Initially hide the title */
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-title {
+  opacity: 1; /* Show the title on hover */
+}
   
   
