@@ -36,26 +36,24 @@
 }
 
 
-
-
 @media (max-width: 768px) {
   .header {
-    flex-direction: column; /* Stack items vertically */
-    text-align: center; /* Center-align the content */
+    flex-direction: column; 
+    text-align: center; 
   }
 
   .profile-picture {
-    margin-bottom: 20px; /* Add some space below the profile picture */
+    margin-bottom: 20px; 
   }
 
   .navigation {
-    justify-content: center; /* Center the navigation links */
-    flex-wrap: wrap; /* Wrap links if necessary */
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .navigation a {
-    font-size: 0.7rem; /* Adjust font size for smaller screens */
+    font-size: 0.7rem; 
     padding: 5px;
-    margin: 0 10px; /* Adjust margin for closely spaced links */
+    margin: 0 10px; 
   }
 }

@@ -24,16 +24,16 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5); 
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  opacity: 0; /* Initially hide the title */
+  opacity: 0; 
   transition: opacity 0.3s ease;
 }
 
 .project-card:hover .project-title {
-  opacity: 1; /* Show the title on hover */
+  opacity: 1; 
 }
   
   
