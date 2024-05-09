@@ -2,7 +2,7 @@ import React from 'react';
 import './Resume.css'; 
 
 const Resume = () => {
-    const resumeLink = "https://docs.google.com/document/d/1i4MQ3AqB4BcOQ_jg9qlfq_OJ0nCpCOK7UW-k9Q5R8mw/edit?usp=sharing";
+    const resumeLink = "https://docs.google.com/document/d/e/2PACX-1vQ9yAxdfzj6-R-3zewmppjUmPE2O3-csUoB2jPxBrUVUyymzxIvM5y2hlykHxlnjDGTAqE8LPvjjW1o/pub";
   
   const frontEndProficiencies = [
     "HTML",
